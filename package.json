@@ -1,0 +1,19 @@
+{
+  "name": "geniish-docs",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "docs.geniish.io built with Retype",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geniish-protocol/docs.git"
+  },
+  "license": "ISC",
+  "homepage": "https://docs.geniish.io",
+  "dependencies": {
+    "retypeapp": "^2.3.0"
+  }
+}
