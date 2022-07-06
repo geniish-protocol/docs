@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.3.0.710418232475">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.3.0.710428400116">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.3.0">
 
     <!-- Primary Meta Tags -->
-    <title>White paper</title>
-    <meta name="title" content="White paper">
+    <title>White paper | geniish creating confidential NFTs</title>
+    <meta name="title" content="White paper | geniish creating confidential NFTs">
+    <meta name="description" content="Technically speaking a non-fungible token or short NFT is just a reference to mappings stored on a blockchain." />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.geniish.io/fundamentals/white-paper/" />
@@ -18,20 +19,25 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.geniish.io/fundamentals/white-paper/">
-    <meta property="og:title" content="White paper">
+    <meta property="og:title" content="White paper | geniish creating confidential NFTs">
+    <meta property="og:description" content="Technically speaking a non-fungible token or short NFT is just a reference to mappings stored on a blockchain.">
+    <meta property="og:image" content="https://docs.geniish.io/assets/images/geniish_protocol.drawio.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.geniish.io/fundamentals/white-paper/">
-    <meta property="twitter:title" content="White paper">
+    <meta property="twitter:title" content="White paper | geniish creating confidential NFTs">
+    <meta property="twitter:description" content="Technically speaking a non-fungible token or short NFT is just a reference to mappings stored on a blockchain.">
+    <meta property="twitter:image" content="https://docs.geniish.io/assets/images/geniish_protocol.drawio.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=2.3.0.710418232475" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.3.0.710428400116" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.3.0.710418232475" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.3.0.710428400116" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.3.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.3.0.710418232475" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.3.0.710428400116" data-turbo-eval="false" defer></script>
+    <script id="prism-js" type="text/javascript" src="../../resources/js/prism.js?v=2.3.0.710428400116" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -59,7 +65,17 @@
                     <nav class="hidden md:flex">
                         <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                             <li class="mr-6">
-                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://retype.com/guides/getting-started/">Getting Started</a>
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://geniish.io" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path fill-rule="evenodd" d="M11.03 2.59a1.5 1.5 0 011.94 0l7.5 6.363a1.5 1.5 0 01.53 1.144V19.5a1.5 1.5 0 01-1.5 1.5h-5.75a.75.75 0 01-.75-.75V14h-2v6.25a.75.75 0 01-.75.75H4.5A1.5 1.5 0 013 19.5v-9.403c0-.44.194-.859.53-1.144l7.5-6.363zM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 01.75-.75h3.5a.75.75 0 01.75.75v6.25h5v-9.403L12 3.734z"/>
+                                        </g>
+                                    </svg>
+                                    <span>landing</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://app.geniish.io" target="_blank">🪅 dApp</a>
                             </li>
         
                         </ul>
@@ -138,7 +154,17 @@
                             <nav>
                                 <ul class="flex flex-wrap justify-center items-center">
                                     <li class="mr-6">
-                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://retype.com/guides/getting-started/">Getting Started</a>
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://geniish.io" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path fill-rule="evenodd" d="M11.03 2.59a1.5 1.5 0 011.94 0l7.5 6.363a1.5 1.5 0 01.53 1.144V19.5a1.5 1.5 0 01-1.5 1.5h-5.75a.75.75 0 01-.75-.75V14h-2v6.25a.75.75 0 01-.75.75H4.5A1.5 1.5 0 013 19.5v-9.403c0-.44.194-.859.53-1.144l7.5-6.363zM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 01.75-.75h3.5a.75.75 0 01.75.75v6.25h5v-9.403L12 3.734z"/>
+                                                </g>
+                                            </svg>
+                                            <span>landing</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://app.geniish.io" target="_blank">🪅 dApp</a>
                                     </li>
             
                                 </ul>
@@ -168,6 +194,151 @@
         <doc-anchor-trigger class="header-anchor-trigger" to="#white-paper">#</doc-anchor-trigger>
         <span>White paper</span>
     </h1>
+</doc-anchor-target>
+<doc-anchor-target id="abstract">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#abstract">#</doc-anchor-trigger>
+        <span>Abstract</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="introduction">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#introduction">#</doc-anchor-trigger>
+        <span>Introduction</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="problem">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#problem">#</doc-anchor-trigger>
+        <span>Problem</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="basics-for-evm-compatible-blockchains">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#basics-for-evm-compatible-blockchains">#</doc-anchor-trigger>
+        <span>Basics for EVM compatible blockchains</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="how-non-fungible-tokens-work">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#how-non-fungible-tokens-work">#</doc-anchor-trigger>
+        <span>How non-fungible tokens work</span>
+    </h2>
+</doc-anchor-target>
+<p>Technically speaking a non-fungible token or short NFT is just a reference to mappings stored on a blockchain. These mappings are interpreted as properties of that NFT. For example, the owner of the NFT with a specific tokenID is implemented as shown below.</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">mapping(uint256 =&gt; address) private _owners;</code></pre>
+</doc-codeblock></div>
+<p>Where mapping references a specific data structure in the solidity language. It is comparable to a hashmap in other languages. In the configuration above, the key is of datatype uint256 and stores an address. Which in that case represents the owning wallet or contract.</p>
+<p>So if Bob receives an NFT with tokenID 24 from Alice this mapping would contain Bob&#x27;s wallet address at the key 24. All other common properties are implemented in the exact same way. So when referencing the tokenURI implementation looks at a mapping called _tokenURIs and returns the value stored at tokenID , optionally concatenated with a base URI. By design, all these properties are public knowledge and easily accessible.</p>
+<p>As space on-chain is limited and very expensive the tokenURI property is used to add metadata to NFTs. This is done by saving the URI to the metadata location on-chain. NFT viewers and marketplaces then fetch and interpret these metadata according to some common standards.
+There are several used standards on how the metadata is formatted. The most common is the interface provided by the creators of ERC721. The snipped below shows this format.</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+  &quot;title&quot;: &quot;Asset Metadata&quot;,
+  &quot;type&quot;: &quot;object&quot;,
+  &quot;properties&quot;: {
+    &quot;name&quot;: {
+      &quot;type&quot;: &quot;string&quot;,
+      &quot;description&quot;: &quot;Identifies the asset to which this NFT represents&quot;
+    },
+    &quot;description&quot;: {
+      &quot;type&quot;: &quot;string&quot;,
+      &quot;description&quot;: &quot;Describes the asset to which this NFT represents&quot;
+    },
+    &quot;image&quot;: {
+      &quot;type&quot;: &quot;string&quot;,
+      &quot;description&quot;: &quot;A URI pointing to a resource with mime type image/* representing the asset to which this NFT represents. Consider making any images at a width between 320 and 1080 pixels and aspect ratio between 1.91:1 and 4:5 inclusive.&quot;
+    }
+  }
+}</code></pre>
+</doc-codeblock></div>
+<p>The metadata itself is also common knowledge as otherwise only the information stored on-chain could be displayed for an NFT. Due to this design and the nature of blockchain, all data is transparent and readable by every participant.</p>
+<doc-anchor-target id="using-nfts-for-exclusive-content">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#using-nfts-for-exclusive-content">#</doc-anchor-trigger>
+        <span>Using NFTs for exclusive content</span>
+    </h2>
+</doc-anchor-target>
+<p>This is a good thing. Everybody should agree on who owns what NFT and where that NFTs metadata is stored. But there are valid use cases where one wants to hide or restrict access to some part of an NFT.</p>
+<p>A very clear use case is found in digital art. As an artist, I want to sell my art in form of an NFT to an interested party. For a party to be interested in buying the NFT he needs exclusivity. Normal NFTs only offer the exclusivity of being the sole owner of that art piece. But the art itself is public knowledge and viewable by everyone. As an artist, I should have the possibility to give NFT collectors further exclusivity. An option would be to provide a high-resolution version of my art and only feature a preview in the NFT itself.</p>
+<p>Current structures allow this only in a very limited and centralised way. A dApp could verify the owner by a signature and then bring him to an exclusive space to show the hidden content of the NFT. But takes the trust off-chain and eliminates all advantages gained from the blockchain.</p>
+<doc-anchor-target id="solution">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#solution">#</doc-anchor-trigger>
+        <span>Solution</span>
+    </h1>
+</doc-anchor-target>
+<p>We established that there is a need for NFTs that contain exclusive content. Current solutions solve this in a centeralized way. With Oasis Parcel we can offer a better solution that is decentralized and very elegantly. Our protocol improves this further by developing dApps and quality of live tools around that idea.</p>
+<ul>
+<li>developing a standard for NFTs with content stored on Parcel (private NFTs)</li>
+<li>developing a protocol using that standard</li>
+<li>geniish dApp
+<ul>
+<li>view, create, edit, and delete private NFTs</li>
+<li>marketplace to sell and buy private NFTs</li>
+<li>offer custodial access to Parcel</li>
+</ul>
+</li>
+<li>creating bridges from Emerald to other chains to use private NFTs in other ecosystems</li>
+<li>publishing all tooling, knowledge and dApps used in that process</li>
+</ul>
+<doc-anchor-target id="architectural-specification">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#architectural-specification">#</doc-anchor-trigger>
+        <span>Architectural specification</span>
+    </h2>
+</doc-anchor-target>
+<p>The diagram below is a high-level overview of the geniish protocol.</p>
+<p><figure class="content-center">
+    <img src="../../assets/images/geniish_protocol.drawio.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<doc-anchor-target id="technical-specifications">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#technical-specifications">#</doc-anchor-trigger>
+        <span>Technical specifications</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="confidential-nfts">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#confidential-nfts">#</doc-anchor-trigger>
+        <span>Confidential NFTs</span>
+    </h3>
+</doc-anchor-target>
+<p>Confidential NFTs are tokens that support either the ERC721 or ERC1155 standard, live on the Emerald chain and include a mechanism to store a reference to a Parcel token called <code v-pre>ParcelID</code>. That reference can be stored within the metadata of the token or via our ERC721 or ERC1155 extension on-chain. Parcel also tracks the reference to the private NFT via the transferability parameter.</p>
+<p>A Parcel token can have documents attached to it. A document is just binary data stored by Parcel and only readable by a defined set of Identities. All documents for a private NFT will have its owner set to <code v-pre>escrow</code> as this only allows the owner of the Parcel token to access that document.</p>
+<p>The diagram below is a visual representation of said references.</p>
+<p><figure class="content-center">
+    <img src="../../assets/images/geniish_private_nft.drawio.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>When a private NFT is minted. Its twin on Parcel is minted as well.</p>
+<p>The private NFT two states, it is either locked (open) or unlocked (closed).</p>
+<p><figure class="content-center">
+    <img src="../../assets/images/geniish_locking.png" alt="Opening a private NFT to access its content" />
+    <figcaption class="caption">Opening a private NFT to access its content</figcaption>
+</figure>
+</p>
+<p><figure class="content-center">
+    <img src="../../assets/images/geniish_opening.png" alt="Opening a private NFT to access its content" />
+    <figcaption class="caption">Opening a private NFT to access its content</figcaption>
+</figure>
+</p>
+<p>When locking the Emerald token on the Parcel bridge adapter, the bridge sends the Parcel token to the linked Oasis identity of the Emerald token locker. This process is easily manageable by non-technical users via the geniish dApp.</p>
+<doc-anchor-target id="bridges-to-emerald">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bridges-to-emerald">#</doc-anchor-trigger>
+        <span>Bridges to Emerald</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="gsn">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#gsn">#</doc-anchor-trigger>
+        <span>GSN</span>
+    </h3>
 </doc-anchor-target>
 
                                 
@@ -235,6 +406,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "White paper", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "White paper", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>
