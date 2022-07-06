@@ -14,7 +14,7 @@
 
 ## Model
 
-![GIISH token overview of minting, utility and burning](/assets/images/tokenomic_model.png)
+![GIISH token overview of minting, utility and burning](/assets/images/geniish_tokenomics.drawio.png)
 
 Cursive texts on connections are model parameters controlled by governance. A summary is provided below.
 

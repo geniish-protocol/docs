@@ -5,7 +5,15 @@ branding:
   title: geniish
   label: Docs
 links:
-  - text: Getting Started
-    link: https://retype.com/guides/getting-started/
+  - text: landing
+    link: https://geniish.io
+    icon: home
+    target: blank
+  - text: 🪅 dApp
+    link: https://app.geniish.io
+    target: blank
 footer:
   copyright: "&copy; Copyright . All rights reserved."
+
+meta:
+  title: " | geniish creating confidential NFTs"
