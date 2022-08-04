@@ -1,12 +1,10 @@
-# White paper
-
 # Abstract
+
+In the past years NFTs linked to art, music or other digital media has become a new form of ownership. It offers a lot of advantages and features that were not possible before with traditional methods. But still creators suffer when trying to offer content that only a collector of a NFT should be benefiting from. Currently so called exclusive content are offerent on centrialized platforms that act as a paywal. We are offering a much more refined solution to solve this problem with decentralization at heart. By using Oasis Parcel we can store exclusive content truly decentralized and only accessable by the owner of the NFT.
 
 # Introduction
 
-# Problem
-
-## Basics for EVM compatible blockchains
+In the following two sections we introduce the problem of exclusivity in NFTs. To solve this problem a non trival solution is required.
 
 ## How non-fungible tokens work
 
@@ -58,13 +56,13 @@ Current structures allow this only in a very limited and centralised way. A dApp
 
 We established that there is a need for NFTs that contain exclusive content. Current solutions solve this in a centeralized way. With Oasis Parcel we can offer a better solution that is decentralized and very elegantly. Our protocol improves this further by developing dApps and quality of live tools around that idea.
 
-- developing a standard for NFTs with content stored on Parcel (private NFTs)
+- developing a standard for NFTs with content stored on Parcel (confidential NFTs)
 - developing a protocol using that standard
 - geniish dApp
-  - view, create, edit, and delete private NFTs
-  - marketplace to sell and buy private NFTs
+  - view, create, edit, and delete confidential NFTs
+  - marketplace to sell and buy confidential NFTs
   - offer custodial access to Parcel
-- creating bridges from Emerald to other chains to use private NFTs in other ecosystems
+- creating bridges from Emerald to other chains to use confidential NFTs in other ecosystems
 - publishing all tooling, knowledge and dApps used in that process
 
 ## Architectural specification
@@ -77,24 +75,20 @@ The diagram below is a high-level overview of the geniish protocol.
 
 ### Confidential NFTs
 
-Confidential NFTs are tokens that support either the ERC721 or ERC1155 standard, live on the Emerald chain and include a mechanism to store a reference to a Parcel token called `ParcelID`. That reference can be stored within the metadata of the token or via our ERC721 or ERC1155 extension on-chain. Parcel also tracks the reference to the private NFT via the transferability parameter.
+Confidential NFTs are tokens that support either the ERC721 or ERC1155 standard, live on the Emerald chain and include a mechanism to store a reference to a Parcel token called `ParcelID`. That reference can be stored within the metadata of the token or via our ERC721 or ERC1155 extension on-chain. Parcel also tracks the reference to the confidential NFT via the transferability parameter.
 
-A Parcel token can have documents attached to it. A document is just binary data stored by Parcel and only readable by a defined set of Identities. All documents for a private NFT will have its owner set to `escrow` as this only allows the owner of the Parcel token to access that document.
+A Parcel token can have documents attached to it. A document is just binary data stored by Parcel and only readable by a defined set of Identities. All documents for a confidential NFT will have its owner set to `escrow` as this only allows the owner of the Parcel token to access that document.
 
 The diagram below is a visual representation of said references.
 
 ![](/assets/images/geniish_private_nft.drawio.png)
 
-When a private NFT is minted. Its twin on Parcel is minted as well.
+When a confidential NFT is minted. Its twin on Parcel is minted as well.
 
-The private NFT two states, it is either locked (open) or unlocked (closed).
+The confidential NFT two states, it is either locked (open) or unlocked (closed).
 
 ![Opening a private NFT to access its content](/assets/images/geniish_locking.png)
 
 ![Opening a private NFT to access its content](/assets/images/geniish_opening.png)
 
 When locking the Emerald token on the Parcel bridge adapter, the bridge sends the Parcel token to the linked Oasis identity of the Emerald token locker. This process is easily manageable by non-technical users via the geniish dApp.
-
-### Bridges to Emerald
-
-### GSN
