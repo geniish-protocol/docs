@@ -8,20 +8,21 @@ We set up multiple demo tokens with a pixelated preview image publicly viewable 
 
 Make sure you have the following setup correctly.
 
-- Metamask with Emerald Testnet configured (https://metamask.io/)
-- Oasis account (https://steward.oasislabs.com/)
+- [Metamask](https://metamask.io/)
+- Emerald Testnet configured ([Read more](https://docs.oasis.dev/general/developer-resources/emerald-paratime/#testnet))
+- Some test ROSE tokens ([Faucet](https://faucet.testnet.oasis.dev/))
 
 ## Sign in on geniish
 
-Go to our [dApp](https://geniish.io) and sign in with your Oasis Account and Metamask.
+Go to our [dApp](https://geniish.io) and connect with your wallet.
 
-![](../assets/gifs/demo_step1.gif)
+![](../assets/gifs/demo1.gif)
 
 ## Withdraw a demo token
 
 We have prepared some demo tokens to play around with. You can withdraw one to your account immediately.
 
-![](../assets/gifs/demo_step2.gif)
+![](../assets/gifs/demo2.gif)
 
 ## Access the exclusive content
 
