@@ -5,14 +5,23 @@ branding:
   title: geniish
   label: Docs
 links:
-  - text: landing
+  - text: DApp
     link: https://geniish.io
     icon: home
     target: blank
   - text: Twitter
     link: https://twitter.com/GeniishProtocol
-    target: Twitter
     icon: twitter
+    target: Twitter
+  - text: Discord
+    link: https://discord.com/invite/Mc6Y2jfeEv
+    icon: discord
+    target: Discord
+  - text: Telegram
+    link: https://t.me/geniish
+    icon: telegram
+    target: telegram
+
 footer:
   copyright: "&copy; Copyright . All rights reserved."
 
