@@ -12,6 +12,7 @@ links:
   - text: Twitter
     link: https://twitter.com/GeniishProtocol
     target: Twitter
+    icon: twitter
 footer:
   copyright: "&copy; Copyright . All rights reserved."
 
