@@ -14,14 +14,14 @@ Geniish offers decentralized unlockable content, where the hidden content is onl
 
 The protocol gives creators access control over the distribution of their content. Artists, musicians, writers, filmmakers, developers, metaverse, ticketing, certificates, memberships, and many more can benefit from these new features powering NFTs.
 
-Geniish technology enables NFTs to offer much more than just standalone pieces. We are empowering artists and collector to add value and infuse creativity into NFTs and thus enhancing the overall trading experience.
+Geniish technology enables NFTs to offer much more than just standalone pieces. We are empowering artists and collectors to add value and infuse creativity into NFTs and thus enhancing the overall trading experience.
 
 With the introduction of unlockable NFTs, creators can now offer "secret" content which is only accessible to the owner of the NFTs. This can be hidden data behind the public accessible information.
 
 
 # Getting started
 
-Take a look at our demo to experience the DApp on testnet and stay tunned for our SDK launch. 
+Take a look at our demo to experience the DApp on testnet and stay tunned for the integration API release. 
 
 [!ref](/guides/demo.md)
 

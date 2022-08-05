@@ -9,11 +9,11 @@ links:
     link: https://geniish.io
     icon: home
     target: blank
-  - text: 🪅 dApp
-    link: https://app.geniish.io
-    target: blank
+  - text: Twitter
+    link: https://twitter.com/GeniishProtocol
+    target: Twitter
 footer:
   copyright: "&copy; Copyright . All rights reserved."
 
 meta:
-  title: " | geniish creating confidential NFTs"
+  title: " | geniish decentralized unlockable NFT content"
