@@ -1,10 +1,10 @@
 # What is geniish?
 
-geniish is a multi-chain protocol and platform that delivers unlockable NFTs for everyone creating exclusive content through Oasis Parcel technology. Our vision is to extend the NFT space by offering an accessible way to link NFTs with exclusive content for the collectors.
+Geniish is a multi-chain protocol and platform that delivers NFT data access policies and private ownership for everyone creating exclusive NFT content through Oasis Parcel technology. Our vision is to extend the NFT space by offering an accessible way to link NFTs with exclusive content for the collectors.
 
 One of the biggest problems for NFTs arises when creators want to offer exclusive content to their collectors. Current solutions solve this by hosting the exclusive content centralized on servers that check the signature of the collector's wallet. geniish uses Oasis Parcel to allow a fully decentralized way to access exclusive content.
 
-With geniish you can create NFT collections that have files, images, videos and 3D models attached to them only accessible by the NFTs holder. Easily created and viewed on our dApp.
+With geniish you can create confidential NFT collections that have images, music, videos, files and more attached to them only accessible by the NFTs holder. Easily created and viewed on our dApp.
 
 # Introducing decentralized unlockable content
 
@@ -18,6 +18,9 @@ Geniish technology enables NFTs to offer much more than just standalone pieces. 
 
 With the introduction of unlockable NFTs, creators can now offer "secret" content which is only accessible to the owner of the NFTs. This can be hidden data behind the public accessible information.
 
+# Native private ownership
+
+Geniish also adds an extra layer of confidentiality by enabling anonymous NFT ownership. The protocol ensures that nobody can see who owns an NFT and provides fully private transactions, allowing users to protect their identities.  
 
 # Getting started
 
