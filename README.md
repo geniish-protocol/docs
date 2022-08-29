@@ -6,7 +6,7 @@ One of the biggest problems for NFTs arises when creators want to offer exclusiv
 
 With geniish you can create confidential NFT collections that have images, music, videos, files and more attached to them only accessible by the NFTs holder. Easily created and viewed on our dApp.
 
-Our vision is to become the world's privacy enabled NFT protocol powering the next evolution of NFT utilities. 
+Our vision is to become the world's privacy enabled NFT protocol powering the next evolution of NFT utilities.
 
 # Decentralized unlockable content
 
