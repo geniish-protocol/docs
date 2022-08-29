@@ -6,6 +6,8 @@ One of the biggest problems for NFTs arises when creators want to offer exclusiv
 
 With geniish you can create confidential NFT collections that have images, music, videos, files and more attached to them only accessible by the NFTs holder. Easily created and viewed on our dApp.
 
+Our vision is to become the world's privacy enabled NFT protocol powering the next evolution of NFT utilities. 
+
 # Decentralized unlockable content
 
 Let's start with a quick overview of traditional NFTs. An NFT is unique digital asset that cannot be replaced with something else. Owning an NFT is essentially a proof of ownership of the digital content and there can only be one owner at one time. Unlockable NFTs are pushing the boundaries of the current ecosystem and unlocking the next innovation, as of today, every NFT content is accessible to everyone. 
