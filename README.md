@@ -20,7 +20,7 @@ Geniish technology enables NFTs to offer much more than just standalone pieces. 
 
 With the introduction of unlockable NFTs, creators can now offer "secret" content which is only accessible to the owner of the NFTs. This can be hidden data behind the public accessible information.
 
-# Native private ownership
+# Native confidential ownership
 
 Geniish also adds an extra layer of confidentiality by enabling anonymous NFT ownership. The protocol ensures that nobody can see who owns an NFT and provides fully private transactions, allowing users to protect their identities.  
 
