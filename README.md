@@ -12,7 +12,7 @@ Our vision is to become the world's privacy enabled NFT protocol powering the ne
 
 Let's start with a quick overview of traditional NFTs. An NFT is unique digital asset that cannot be replaced with something else. Owning an NFT is essentially a proof of ownership of the digital content and there can only be one owner at one time. Unlockable NFTs are pushing the boundaries of the current ecosystem and unlocking the next innovation, as of today, every NFT content is accessible to everyone. 
 
-Geniish offers decentralized unlockable content, where the hidden content is only accessible to the owner of the NFT. The protocol introduces the ability to create dynamic assets and adds new functionalities to the current NFT landscape. By enabling access control, content creators can now add hidden encrypted data into their NFTs. Such data can include an image, music, video, files, in-game assets and more.
+Geniish offers decentralized unlockable content, where the hidden content is only accessible to the owner of the NFT. The protocol introduces the ability to create data-backed NFTs with dynamic assets and adds new functionalities to the current NFT landscape. By enabling access control, content creators can now add hidden encrypted data into their NFTs. Such data can include an image, music, video, files, in-game assets and more.
 
 The protocol gives creators access control over the distribution of their content. Artists, musicians, writers, filmmakers, developers, metaverse, ticketing, certificates, memberships, and many more can benefit from these new features powering NFTs.
 
@@ -20,7 +20,7 @@ Geniish technology enables NFTs to offer much more than just standalone pieces. 
 
 With the introduction of unlockable NFTs, creators can now offer "secret" content which is only accessible to the owner of the NFTs. This can be hidden data behind the public accessible information.
 
-# Native confidential ownership.
+# Native confidential ownership
 
 Geniish also adds an extra layer of confidentiality by enabling anonymous NFT ownership. The protocol ensures that nobody can see who owns an NFT and provides fully private transactions, allowing users to protect their identities.  
 
