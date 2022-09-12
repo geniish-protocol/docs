@@ -1,4 +1,4 @@
-# Tokenomics
+# Tokenomics (W.I.P.)
 
 # Introduction
 
