@@ -1,3 +1,5 @@
+# White paper (W.I.P.)
+
 # Abstract
 
 In the past years NFTs linked to art, music or other digital media has become a new form of ownership. It offers a lot of advantages and features that were not possible before with traditional methods. But still creators suffer when trying to offer content that only a collector of a NFT should be benefiting from. Currently so called exclusive content are offerent on centrialized platforms that act as a paywal. We are offering a much more refined solution to solve this problem with decentralization at heart. By using Oasis Parcel we can store exclusive content truly decentralized and only accessable by the owner of the NFT.
