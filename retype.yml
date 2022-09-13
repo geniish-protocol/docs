@@ -5,9 +5,13 @@ branding:
   title: geniish
   label: Docs
 links:
-  - text: DApp
+  - - text: Home
     link: https://geniish.io
     icon: home
+    target: blank
+  - text: DApp
+    link: https://app.geniish.io
+    icon: link-external
     target: blank
   - text: Twitter
     link: https://twitter.com/GeniishProtocol
