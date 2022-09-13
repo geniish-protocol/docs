@@ -5,7 +5,7 @@ branding:
   title: geniish
   label: Docs
 links:
-  - - text: Home
+  - text: Home
     link: https://geniish.io
     icon: home
     target: blank
